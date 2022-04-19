@@ -9,3 +9,8 @@ const numbers2 = [1, 2, 3, 4, 5];
 numbers2.forEach(num => sum += num)
 console.log("Ejemplo 2: Cálculo de la suma de los elementos de la lista")
 console.log(sum)
+
+// Ejemplo 3: forEach para imprimir los países en letras mayúsculas
+const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
+console.log("Ejemplo 3: Imprimiendo la lista de países en mayúsculas")
+countries.forEach((element) => console.log(element.toUpperCase()))
